@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Sample" parent="Base.Theme.Sample" />
+
+    <style name="Base.Theme.Sample" parent="@style/Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorBrandBlue</item>
+        <item name="colorPrimaryDark">@color/colorDarkBlue</item>
+        <item name="colorAccent">@color/colorRed</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.Sample.Headline5</item>
+        <item name="textAppearanceHeadline1">@style/TextAppearance.Sample.Headline1</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.Sample.Body1</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.Sample.Subtitle1</item>
+    </style>
+
+    <style name="TextAppearance.Sample.Headline5" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textSize">17sp</item>
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearance.Sample.Headline1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="TextAppearance.Sample.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextAppearance.Sample.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textColor">@color/colorHintGrey</item>
+    </style>
+</resources>
